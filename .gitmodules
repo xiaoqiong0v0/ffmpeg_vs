@@ -1,0 +1,96 @@
+[submodule "source/FFmpeg"]
+	path = source/FFmpeg
+	url = https://github.com/ShiftMediaProject/FFmpeg.git
+[submodule "source/bzip2"]
+	path = source/bzip2
+	url = https://github.com/ShiftMediaProject/bzip2.git
+[submodule "source/fontconfig"]
+	path = source/fontconfig
+	url = https://github.com/ShiftMediaProject/fontconfig.git
+[submodule "source/freetype2"]
+	path = source/freetype2
+	url = https://github.com/ShiftMediaProject/freetype2.git
+[submodule "source/fribidi"]
+	path = source/fribidi
+	url = https://github.com/ShiftMediaProject/fribidi.git
+[submodule "source/game-music-emu"]
+	path = source/game-music-emu
+	url = https://github.com/ShiftMediaProject/game-music-emu.git
+[submodule "source/gnutls"]
+	path = source/gnutls
+	url = https://github.com/ShiftMediaProject/gnutls.git
+[submodule "source/harfbuzz"]
+	path = source/harfbuzz
+	url = https://github.com/ShiftMediaProject/harfbuzz.git
+[submodule "source/lame"]
+	path = source/lame
+	url = https://github.com/ShiftMediaProject/lame.git
+[submodule "source/libass"]
+	path = source/libass
+	url = https://github.com/ShiftMediaProject/libass.git
+[submodule "source/libbluray"]
+	path = source/libbluray
+	url = https://github.com/ShiftMediaProject/libbluray.git
+[submodule "source/libcdio"]
+	path = source/libcdio
+	url = https://github.com/ShiftMediaProject/libcdio.git
+[submodule "source/libcdio-paranoia"]
+	path = source/libcdio-paranoia
+	url = https://github.com/ShiftMediaProject/libcdio-paranoia.git
+[submodule "source/libiconv"]
+	path = source/libiconv
+	url = https://github.com/ShiftMediaProject/libiconv.git
+[submodule "source/libgcrypt"]
+	path = source/libgcrypt
+	url = https://github.com/ShiftMediaProject/libgcrypt.git
+[submodule "source/libilbc"]
+	path = source/libilbc
+	url = https://github.com/ShiftMediaProject/libilbc.git
+[submodule "source/liblzma"]
+	path = source/liblzma
+	url = https://github.com/ShiftMediaProject/liblzma.git
+[submodule "source/libssh"]
+	path = source/libssh
+	url = https://github.com/ShiftMediaProject/libssh.git
+[submodule "source/libxml2"]
+	path = source/libxml2
+	url = https://github.com/ShiftMediaProject/libxml2.git
+[submodule "source/libvpx"]
+	path = source/libvpx
+	url = https://github.com/ShiftMediaProject/libvpx.git
+[submodule "source/mfx_dispatch"]
+	path = source/mfx_dispatch
+	url = https://github.com/ShiftMediaProject/mfx_dispatch.git
+[submodule "source/modplug"]
+	path = source/modplug
+	url = https://github.com/ShiftMediaProject/modplug.git
+[submodule "source/opus"]
+	path = source/opus
+	url = https://github.com/ShiftMediaProject/opus.git
+[submodule "source/sdl"]
+	path = source/sdl
+	url = https://github.com/ShiftMediaProject/sdl.git
+[submodule "source/soxr"]
+	path = source/soxr
+	url = https://github.com/ShiftMediaProject/soxr.git
+[submodule "source/speex"]
+	path = source/speex
+	url = https://github.com/ShiftMediaProject/speex.git
+[submodule "source/theora"]
+	path = source/theora
+	url = https://github.com/ShiftMediaProject/theora.git
+[submodule "source/vorbis"]
+	path = source/vorbis
+	url = https://github.com/ShiftMediaProject/vorbis.git
+[submodule "source/x264"]
+	path = source/x264
+	url = https://github.com/ShiftMediaProject/x264.git
+[submodule "source/x265"]
+	path = source/x265
+	url = https://github.com/ShiftMediaProject/x265.git
+[submodule "source/xvid"]
+	path = source/xvid
+	url = https://github.com/ShiftMediaProject/xvid.git
+[submodule "source/zlib"]
+	path = source/zlib
+	url = https://github.com/ShiftMediaProject/zlib.git
