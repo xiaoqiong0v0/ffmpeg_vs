@@ -94,3 +94,15 @@
 [submodule "source/zlib"]
 	path = source/zlib
 	url = https://github.com/ShiftMediaProject/zlib.git
+[submodule "source/gmp"]
+	path = source/gmp
+	url = https://github.com/ShiftMediaProject/gmp.git
+[submodule "source/libgpg-error"]
+	path = source/libgpg-error
+	url = https://github.com/ShiftMediaProject/libgpg-error.git
+[submodule "source/nettle"]
+	path = source/nettle
+	url = https://github.com/ShiftMediaProject/nettle.git
+[submodule "source/ogg"]
+	path = source/ogg
+	url = https://github.com/ShiftMediaProject/ogg.git
