@@ -54,35 +54,35 @@ if not exist "%_LOCK_PATH%\VSNASM.lock" (
     echo "check VsNasm is already ok"
 )
 
-if not exist "%_LOCK_PATH%\VSYASM.lock" (
-    cd %_SOURCE_PATH%
-    echo "check VsYasm ..."
-    if not exist "VSYASM" (
-        echo "clone VsYasm ..."
-        git clone "https://github.com/ShiftMediaProject/VSYASM.git" "VSYASM" || echo "download VsYasm failed" && goto end
-    )
-    cd %_SOURCE_PATH%\VSYASM
-    if "%PROCESSOR_ARCHITECTURE%"=="AMD64" (
-        echo "Detected 64 bit system..."
-        set SYSARCH=64
-    ) else if "%PROCESSOR_ARCHITECTURE%"=="x86" (
-        if "%PROCESSOR_ARCHITEW6432%"=="AMD64" (
-            echo "Detected 64 bit system running 32 bit shell..."
-            set SYSARCH=64
-        ) else (
-            echo "Detected 32 bit system..."
-            set SYSARCH=32
-        )
-    ) else (
-        echo "Can't detect system architecture..."
-    )
-    call .\install_script.bat %_VS_VERSION% "%_VS_PATH%" || echo "install VsYasm failed" && goto end
-    cd %_ROOT_PATH%
-    type nul> "%_LOCK_PATH%\VSYASM.lock"
-    echo "check VsYasm is ok"
-) else (
-    echo "check VsYasm is already ok"
-)
+rem if not exist "%_LOCK_PATH%\VSYASM.lock" (
+rem     cd %_SOURCE_PATH%
+rem     echo "check VsYasm ..."
+rem     if not exist "VSYASM" (
+rem         echo "clone VsYasm ..."
+rem         git clone "https://github.com/ShiftMediaProject/VSYASM.git" "VSYASM" || echo "download VsYasm failed" && goto end
+rem     )
+rem     cd %_SOURCE_PATH%\VSYASM
+rem     if "%PROCESSOR_ARCHITECTURE%"=="AMD64" (
+rem         echo "Detected 64 bit system..."
+rem         set SYSARCH=64
+rem     ) else if "%PROCESSOR_ARCHITECTURE%"=="x86" (
+rem         if "%PROCESSOR_ARCHITEW6432%"=="AMD64" (
+rem             echo "Detected 64 bit system running 32 bit shell..."
+rem             set SYSARCH=64
+rem         ) else (
+rem             echo "Detected 32 bit system..."
+rem             set SYSARCH=32
+rem         )
+rem     ) else (
+rem         echo "Can't detect system architecture..."
+rem     )
+rem     call .\install_script.bat %_VS_VERSION% "%_VS_PATH%" || echo "install VsYasm failed" && goto end
+rem     cd %_ROOT_PATH%
+rem     type nul> "%_LOCK_PATH%\VSYASM.lock"
+rem     echo "check VsYasm is ok"
+rem ) else (
+rem     echo "check VsYasm is already ok"
+rem )
 
 if not exist "%_LOCK_PATH%\opengl_registry.lock" (
     cd %_SOURCE_PATH%
