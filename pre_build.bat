@@ -12,6 +12,16 @@ if not exist "%_OUT_PATH%" (
 if not exist "%_LOCK_PATH%" (
     mkdir %_LOCK_PATH%
 )
+if not exist "%_LOCK_PATH%\dependencies.lock" (
+    cd %_SOURCE_PATH%\FFmpeg\SMP
+    echo "obtain dependencies ..."
+    call .\project_get_dependencies.bat || echo "project_get_dependencies failed" && goto end
+    cd %_ROOT_PATH%
+    type nul> "%_LOCK_PATH%\dependencies.lock"
+    echo "obtain dependencies is ok"
+) else (
+    echo "obtain dependencies is already ok"
+)
 if not exist "%_LOCK_PATH%\VSNASM.lock" (
     cd %_SOURCE_PATH%
     echo "check VsNasm ..."
